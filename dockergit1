@@ -1,0 +1,4 @@
+FROM ubuntu:latest
+RUN apt update
+RUN apt install git -y
+RUN touch 1.txt
