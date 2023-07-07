@@ -1,0 +1,3 @@
+FROM ubuntu:latest
+RUN touch 3.txt
+RUN mkdir new1
